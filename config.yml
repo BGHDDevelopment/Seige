@@ -1,0 +1,17 @@
+mysql:
+  enabled: false
+  ip: '127.0.0.1'
+  port: '3306'
+  username: 'root'
+  password: ''
+
+siege:
+  game:
+    min-players: 6
+  king:
+    name: '&6&lKing Olaf'
+    health: 600
+    damage-per-hit: 1
+  timers:
+    countdown: 30
+    match: 360

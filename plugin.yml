@@ -1,0 +1,10 @@
+name: Siege
+main: me.ItsJasonn.Siege.Main.Core
+version: 0.1
+description: Siege Gamemode
+author: BGHDDevelopment
+commands:
+ Hub:
+  description: Teleport to the main hub
+ Siege:
+  description: Show a Siege help page
