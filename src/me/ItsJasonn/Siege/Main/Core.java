@@ -2,6 +2,7 @@ package me.ItsJasonn.Siege.Main;
 
 import java.io.File;
 
+import me.ItsJasonn.Siege.MetricsLite;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.World;
@@ -29,7 +30,7 @@ public class Core extends JavaPlugin implements PluginMessageListener {
 		if(!config.exists()) {
 			saveDefaultConfig();
 		}
-		
+		MetricsLite metrics = new MetricsLite(this);
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "-----------========      Siege     ========-----------");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "- All the files in this plugin are 'read-only'. This means that you are not allowed to open, remove, change, replace the file in any case!");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD + "- If an error occurs you are supposed to contact the developer and DO NOT try out things yourself.");

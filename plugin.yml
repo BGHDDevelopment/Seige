@@ -1,6 +1,6 @@
 name: Siege
 main: me.ItsJasonn.Siege.Main.Core
-version: 0.1
+version: 0.2
 description: Siege Gamemode
 author: BGHDDevelopment
 commands:
