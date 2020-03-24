@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="Siege:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Siege_jar</output-path>
+    <output-path>$PROJECT_DIR$/../../Development</output-path>
     <root id="archive" name="Siege.jar">
       <element id="module-output" name="Siege" />
       <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
