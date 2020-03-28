@@ -1,0 +1,10 @@
+name: Seige
+version: ${project.version}
+main: me.itsjasonn.seige.main.Core
+authors: [BGHDDevelopment]
+description: Siege Gamemode
+commands:
+  Hub:
+    description: Teleport to the main hub
+  Siege:
+    description: Show a Siege help page
